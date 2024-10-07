@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background: url(https://wallpapercave.com/wp/wp2791508.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 90%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+    
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(131, 207, 38);
+    font-size: 40px;
+    text-decoration-style: double;
+    text-shadow: rgb(120, 73, 110) 2px -6px 5px;
+
+}
+
+.sec1 {
+    /* width: 100%;  */
+    display: flex;
+    margin-top: 50px;
+}
+.sn{
+    margin-top: 20px;
+    color: #d3dbd1;
+    margin-top: 15px;
+    font-weight: 600px;
+}
+
+.snn {
+    margin-left: 10px;
+}
+
+.stu {
+    /* width: 50%; */
+    margin-left: 10%;
+    display: flex;
+    border: none;
+
+}
+.new{
+    font-size: 15px;
+    /* background-color: rebeccapurple; */
+    text-decoration: none;
+    background-color: none;
+    /* width: 2 0px; */
+    margin-top: 20px;
+    border: none;
+    height: 10px;
+}
+
+.sn1 {
+    margin-left: -10px;
+   
+
+}
+
+.a01 {
+    margin-left: 20px;
+    color: #d3dbd1;
+    margin-top: 15px;
+    font-weight: 600px;
+}
+
+.sec1 input {
+    border:2px solid #5dcee2;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    background: transparent;
+}
+
+.father {
+    /* width: 50%; */
+    display: flex;
+    gap: 20px;
+}
+
+.sec2 {
+    display: flex;
+    margin-left: 10%;
+    width: 100%;
+    /* gap: 20px; */
+}
+
+.sec2 input {
+    /* display: flex; */
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(228, 144, 144);
+    margin-top: 30px;
+    justify-items: center;
+}
+
+.p1 {
+    color: #d3dbd1;
+    font-weight: 700;
+    margin-top: 30px;
+    float: left;
+    font-size: 15px;
+    /* background-color: red; */
+}
+
+input.box {
+    border: 2px solid rgb(228, 144, 144);
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+input.small {
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+.p2 {
+    color: aliceblue;
+    margin-top: 30px;
+    /* display: block; */
+    float: left;
+    font-size: 15px;
+    margin-left: 40px;
+    /* background-color: red; */
+}
+.extra {
+    display: flex;
+    margin-top: 20px;
+    /* background-color: beige; */
+ margin-left: 30px;
+    /* width: 100%;     */
+}
+input.addet{
+
+    margin-left: 8%;
+    width: 1000px;
+    border-radius: 5px ;
+    /* border: 2px solid black; */
+    background: transparent;
+}
+.sec3, .count, .last{
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    gap: 50px;
+}
+.city, .con {
+    width: 50%;
+    margin-left: 80px;
+}
+.reg, .rag {
+    width: 50%;
+    margin-left: 100px;
+}
+.city, .reg,  input{
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+.rag{
+    margin-right: 100px;
+}
+
+.phone{
+    margin-left: 80px;
+
+}
+.mail input{
+    
+    margin-left: 105px;
+    background: transparent;
+
+}
+.submit, .remove {
+margin-left: 250px;
+margin-top: 30px;
+padding: 5px;
+width: 100px;
+border-radius: 10px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(148, 239, 215);
+    color: black;
+    box-shadow:5px 10px #77a5cd ;
+    text-shadow:  2px -1px 5px #FF0000;
+}
+.remove{
+    margin-left: 450px;
+}
+.remove:hover{
+    cursor: pointer;
+    background-color: rgb(148, 239, 215);
+    color: black;
+    box-shadow:5px 10px #77a5cd ;
+    text-shadow:  2px -1px 5px #2fff00;
+}
+
+input{
+    border-color: #a40707ab;
+    /* border: 2px solid  #17c993; */
+    padding: 5px;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(249, 249, 249);
+    opacity: 5; 
+    font-weight: 700;
+  }
+  .placeholder:hover{
+    background-color: #391892;
+  }
+#show{
+/* height: 50vh; */
+}
+td{
+    color : red;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    background: url(https://cdn.osxdaily.com/wp-content/uploads/2023/08/apple-september-2023-event-wallpaper-4k.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+margin-left: 10px;    
+text-decoration: underline;
+color: #f51313;
+font-weight: 700;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    text-align: center;
+    background-color: lightpink;
+}

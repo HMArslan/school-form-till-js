@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>SCHOOL ADDMISSION FORM</h1>
+        <form>
+            <div class="sec1">
+                <div class="stu">
+                    <p class="a00">
+                    <p class="sn"><b> Student Name*</b> </p><input class="snn" placeholder="your name  " type="text"
+                        name="s.name" id="student name">
+                </div>
+                <div class="father">
+                    <p class="a01"> <b> Father Name* </b></p><input class="sn1" placeholder="  father name" type="text"
+                        name="f.name" id="fath">
+                </div>
+
+            </div>
+
+
+            <div class="sec2">
+                <div class="clas">
+                    <p class="p1"><b>Class you want to Apply for*</b></p> <input class="box" type="text" name="apply"
+                        id="class">
+                </div>
+                <div class="date">
+                    <p class="p2"> <b>Student DoB* </b></p><input class="small" type="date" name="dob" id="date">
+                </div>
+                <!-- <div class="input-group">
+                    <span class="input-group-text"><p class="new">First and last name</p></span>
+                    <input type="text" aria-label="First name" class="form-control" fdprocessedid="tcp8dv">
+                    <input type="text" aria-label="Last name" class="form-control" fdprocessedid="gzr0pl">
+                  </div> -->
+            </div>
+            <div class="extra">
+                <div class="line"><input class="addet" placeholder="current address" type="text" name="abc" id="line">
+                </div>
+            </div>
+
+            <div class="sec3">
+                <div class="city"><input placeholder="city" type="text" name="abd" id="city"></div>
+                <div class="reg"><input placeholder="region" name="abe" id="region"></div>
+
+            </div>
+            <div class="count">
+                <div class="con"><input placeholder="postal / zip code" type="text" name="abf" id="postal"></div>
+                <div class="rag"><input placeholder="country" type="text" name="abg" id="country"></div>
+            </div>
+            <div class="last">
+                <div class="phone"><input placeholder="phone no #" type="text" name="abh" id="phone"></div>
+                <div class="mail"><input placeholder="@ Email.com" type="text" name="abi" id="mail"></div>
+            </div>
+        </form>
+        <button class="submit" type="button" onclick="submit()">add value </button>
+        <button class="remove" onclick="removeAll()">Remove</button>
+    </div>
+    <h2>OUTPUT</h2>
+    <div class="wrap">
+        <div class="mai">
+            <p>Students Name:</p>
+            <p id="show"></p>
+        </div>
+        <div class="ma" >
+            <p>Father Name:</p>
+            <p id="showfather"></p>
+        </div>
+        <div class="ma1" >
+            <p>want appy class:</p>
+            <p id="apply"></p>
+        </div>
+        <div class="ma2" >
+            <p>date of birth:</p>
+            <p id="dob"></p>
+        </div>
+        <div class="ma3" >
+            <p>address:</p>
+            <p id="address1"></p>
+        </div>
+        <div class="ma4" >
+            <p>your city:</p>
+            <p id="city1"></p>
+        </div>
+        <div class="ma5" >
+            <p>region:</p>
+            <p id="region"></p>
+        </div>
+        <div class="ma6" >
+            <p>postal code:</p>
+            <p id="postal1"></p>
+        </div>
+        <div class="ma7" >
+            <p>country:</p>
+            <p id="country1"></p>
+        </div>
+        <div class="ma8" >
+            <p>phone#:</p>
+            <p id="phone1"></p>
+        </div>
+        <div class="ma9" >
+            <p>email:</p>
+            <p id="mail1"></p>
+        </div>
+    </div>
+    <script src="./app.js">
+
+
+    </script>
+</body>
